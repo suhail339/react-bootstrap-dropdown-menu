@@ -1,19 +1,32 @@
+"use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
 var Css = {
   pointer: {
     cursor: 'pointer'
   },
+  defaultLink: {
+    cursor: 'pointer',
+    paddingLeft: '5px',
+    fontWeight: '14px',
+    fontFamily:'sans-serif',
+    textDecoration:'none',
+    height: '34px'
+  },
   disabledItem: {
-    pointerEvents: 'none', 
+    pointerEvents: 'none',
     cursor: 'default',
     color: 'grey'
   },
   gear: {
-    fontSize: '1.7em',
+    fontSize: '2.7em',
     cursor: 'pointer',
     color: 'black',
-    padding: '14px',
-    border: 'none'
+    border: 'none',
+    marginLeft: '6px'
   },
   triangle: {
     fontSize: '0.9em',
@@ -40,15 +53,15 @@ var Css = {
     display: 'inline-block'
   },
   menuItem: {
-    float: 'left'
+    "float": 'left'
   },
   menuContent: {
     display: 'none',
     position: 'absolute',
     left: '0px',
     zIndex: '9999',
-    backgroundColor: '#f9f9f9',
-    minWidth: '180px',
+    backgroundColor: '#fefefe',
+    minWidth: '200px',
     padding: '12px',
     overflow: 'auto',
     boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)'
@@ -60,6 +73,6 @@ var Css = {
     width: '90%',
     borderTop: '1px solid light-grey'
   }
-}
-
-export default Css;
+};
+var _default = Css;
+exports["default"] = _default;
