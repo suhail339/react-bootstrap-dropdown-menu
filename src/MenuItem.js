@@ -50,7 +50,7 @@ var MenuItem = /*#__PURE__*/function (_React$Component) {
     _classCallCheck(this, MenuItem);
 
     _this = _super.call(this, props);
-    var linkStyle = _Css["default"].pointer;
+    var linkStyle = _Css["default"].defaultLink;
 
     if (_this.props.disabled) {
       if (_this.props.disabled === "true") {
@@ -101,12 +101,15 @@ var MenuItem = /*#__PURE__*/function (_React$Component) {
           throw "The value for prop 'type' is not supported for MenuItem. The only supported type is 'separator'.";
         }
       } else {
-        let _iconClass = '';
+        var _iconClass = '';
         if(this.props.text){
           switch (this.props.text) {
             case 'Save':
               _iconClass = 'glyphicon glyphicon-save';
               break;
+              case 'FBSettings':
+                _iconClass = 'glyphicon glyphicon-wrench';
+                break;
               case 'Preview':
                 _iconClass = 'glyphicon glyphicon-eye-open ui-sortable-handle';
                 break;
