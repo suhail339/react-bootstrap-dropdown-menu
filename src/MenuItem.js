@@ -141,7 +141,7 @@ var MenuItem = /*#__PURE__*/function (_React$Component) {
               break;
           }
         }
-        return /*#__PURE__*/_react["default"].createElement("div", {style:{display: 'block', marginBottom:'5px'},className: _iconClass}, /*#__PURE__*/_react["default"].createElement("a", {
+        return /*#__PURE__*/_react["default"].createElement("div", {style:{display: 'block', marginBottom:'5px'},className: _iconClass+" settinglink",onClick: this.props.onClick,}, /*#__PURE__*/_react["default"].createElement("a", {
           href: this.props.location,
           onClick: this.props.onClick,
           style: this.state.linkStyle
