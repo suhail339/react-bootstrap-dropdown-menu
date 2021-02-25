@@ -10,10 +10,10 @@ var Css = {
   },
   defaultLink: {
     cursor: 'pointer',
-    paddingLeft: '5px',
     fontWeight: '14px',
     fontFamily:'sans-serif',
-    textDecoration:'none'
+    textDecoration:'none',
+    color: '#393f46'
   },
   disabledItem: {
     pointerEvents: 'none',
@@ -69,7 +69,7 @@ var Css = {
     display: 'block'
   },
   separator: {
-    width: '90%',
+    width: '100%',
     borderTop: '1px solid light-grey'
   }
 };
