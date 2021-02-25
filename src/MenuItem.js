@@ -141,10 +141,12 @@ var MenuItem = /*#__PURE__*/function (_React$Component) {
               break;
           }
         }
-        return /*#__PURE__*/_react["default"].createElement("div", {style:{display: 'block', marginBottom:'5px'},className: _iconClass+" settinglink",onClick: this.props.onClick,}, /*#__PURE__*/_react["default"].createElement("a", {
+        return /*#__PURE__*/_react["default"].createElement("div", {style:{display: 'block', marginBottom:'5px'},className: _iconClass+" settingMain"}, /*#__PURE__*/_react["default"]
+        .createElement("a", {
           href: this.props.location,
           onClick: this.props.onClick,
-          style: this.state.linkStyle
+          style: this.state.linkStyle,
+          className:'settingLink'
         }, this.props.text), /*#__PURE__*/_react["default"].createElement("br", null));
       }
     }
