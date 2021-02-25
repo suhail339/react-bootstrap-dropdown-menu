@@ -13,8 +13,7 @@ var Css = {
     paddingLeft: '5px',
     fontWeight: '14px',
     fontFamily:'sans-serif',
-    textDecoration:'none',
-    height: '34px'
+    textDecoration:'none'
   },
   disabledItem: {
     pointerEvents: 'none',
