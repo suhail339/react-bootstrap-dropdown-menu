@@ -59,7 +59,7 @@ var Css = {
     position: 'absolute',
     left: '0px',
     zIndex: '9999',
-    backgroundColor: '#fefefe',
+    backgroundColor: 'white',
     minWidth: '200px',
     padding: '12px',
     overflow: 'auto',
